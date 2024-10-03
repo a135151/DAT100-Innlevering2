@@ -106,8 +106,8 @@ class TabellerEnhetsTests {
 
 		int[] tabell = { 1, 1, 4, 6 };
 
-		assertArrayEquals(tabell, Tabeller.settSammen(tabell2, tabell1));
-		assertArrayEquals(tabell1, Tabeller.settSammen(tabell3, tabell1));
-		assertArrayEquals(tabell1, Tabeller.settSammen(tabell1, tabell3));
+		assertArrayEquals(tabell, Tabeller.sammenSatt(tabell2, tabell1));
+		assertArrayEquals(tabell1, Tabeller.sammenSatt(tabell3, tabell1));
+		assertArrayEquals(tabell1, Tabeller.sammenSatt(tabell1, tabell3));
 	}
 }
